@@ -9,3 +9,12 @@ addElementToBeginningOfArray(array, element)(
   array.unshift (element);
   array;
 )
+
+addElementToEndOfArray(array, element)(
+  
+)
+
+destructivelyAddElementToEndOfArray(array, element) (
+  array.push(element);
+  array;
+)
