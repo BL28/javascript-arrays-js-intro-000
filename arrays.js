@@ -11,7 +11,8 @@ addElementToBeginningOfArray(array, element)(
 )
 
 addElementToEndOfArray(array, element)(
-  
+  [...array, element]
+  array;
 )
 
 destructivelyAddElementToEndOfArray(array, element) (
